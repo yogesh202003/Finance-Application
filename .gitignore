@@ -1,0 +1,79 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# .NET
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+*.nupkg
+*.snupkg
+project.lock.json
+artifacts/
+
+# Secrets & env
+.env
+.env.local
+.env.*.local
+!**/.env.example
+**/appsettings.*.local.json
+**/secrets.json
+**/UserSecrets/
+*.pfx
+*.key
+
+# Uploads (keep directory, ignore files)
+uploads/*
+!uploads/.gitkeep
+
+# React Native / Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+*.orig.*
+ios/Pods/
+ios/build/
+android/app/build/
+android/build/
+android/.gradle/
+*.apk
+*.aab
+*.ipa
+
+# IDE
+.vs/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+npm-debug.*
+yarn-error.*
+coverage/
+TestResults/
+*.tmp
+*.temp
+
+# OS
+Desktop.ini
+$RECYCLE.BIN/
